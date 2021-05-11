@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="E:/资料/k_online_edu/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="E:/资料/k_online_edu/common/common_utils/pom.xml" />
+        <option value="E:/资料/k_online_edu/common/pom.xml" />
+        <option value="E:/资料/k_online_edu/common/service_base/pom.xml" />
+        <option value="E:/资料/k_online_edu/pom.xml" />
+        <option value="E:/资料/k_online_edu/service/pom.xml" />
+        <option value="E:/资料/k_online_edu/service/service-edu/pom.xml" />
+        <option value="E:/资料/k_online_edu/service/service_cms/pom.xml" />
+        <option value="E:/资料/k_online_edu/service/service_edu_interface/pom.xml" />
+        <option value="E:/资料/k_online_edu/service/service_order/pom.xml" />
+        <option value="E:/资料/k_online_edu/service/service_order_interface/pom.xml" />
+        <option value="E:/资料/k_online_edu/service/service_oss/pom.xml" />
+        <option value="E:/资料/k_online_edu/service/service_sms/pom.xml" />
+        <option value="E:/资料/k_online_edu/service/service_sms_interface/pom.xml" />
+        <option value="E:/资料/k_online_edu/service/service_ucenter/pom.xml" />
+        <option value="E:/资料/k_online_edu/service/service_ucenter_interface/pom.xml" />
+        <option value="E:/资料/k_online_edu/service/service_vod/pom.xml" />
+        <option value="E:/资料/k_online_edu/service/service_vod_interface/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

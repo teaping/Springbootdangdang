@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="mailSend"  class="org.springframework.mail.javamail.JavaMailSenderImpl">
+        <!--邮件发送服务器的地址-->
+        <!--126首页 设置 POP3/SMTP/IMAP 最下面 SMTP服务器-->
+        <property name="host" value="smtp.126.com"/>
+        <!--发送邮件账填你的邮箱号-->
+        <property name="username" value="small_xia@126.com"/>
+        <!--客户端授权码-->
+        <!--126首页 设置 POP3/SMTP/IMAP 最上面 POP3/SMTP服务  开启 然后获取该值-->
+        <property name="password" value="HLYUVKQYZLSEFQTF"/>
+        <!--设置邮件的编码格式-->
+        <property name="defaultEncoding" value="UTF-8"/>
+        <property name="javaMailProperties">
+            <props>
+                <!--是否开启用户身份验证-->
+                <prop key="mail.smtp.auth">true</prop>
+                <!--发送邮件超时时间-->
+                <prop key="mail.smtp.timeout">30000</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>
